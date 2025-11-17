@@ -210,6 +210,7 @@ Final Combined Response
 ---
 
 
-
+Open Notion link for more detailed Info
+**[Notion](https://www.notion.so/5-Day-AI-Agents-Intensive-2a9ff936b1e7805099bbf48e6689b749)**
 
 
