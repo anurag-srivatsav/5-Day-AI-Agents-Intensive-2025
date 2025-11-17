@@ -1,92 +1,212 @@
-Problem Statement
+
+
+# 🌟 **iGita — An Indian Spiritual Multi-Agent Emotional Companion**
+
+*A culturally grounded emotional support system inspired by Indian epics and Sanskrit wisdom.*
+
+---
+
+## 📘 **What I Learned in 5 Days (AI Agents Intensive Course)**
+
+During the 5-day AI Agents course, I learned how to build structured, modular, and intelligent multi-agent systems. Key learnings include:
+
+### **Day 1 — Foundations of Agents**
+
+* Understanding what an agent is
+* Agent loops, reasoning steps, and state
+* Tools, actions, memory, and agent ↔ environment interaction
+
+### **Day 2 — Tool Integration**
+
+* How agents call tools
+* Function tools, Google search tools, external APIs
+* Error handling & retry patterns
+* Building reliable tool-calling agents
+
+### **Day 3 — Context Engineering**
+
+* Structured prompts
+* Sessions, memory, and maintaining long conversations
+* Using state to pass data between agents
+* Creating contextual workflows
+
+### **Day 4 — Multi-Agent Workflows**
+
+* Sequential agents
+* Parallel agents
+* Coordinator (root) agents
+* Multi-step reasoning pipelines
+* Designing agent roles that depend on each other
+
+### **Day 5 — Capstone Architecture**
+
+* Turning multiple agents into one final pipeline
+* Orchestrating inputs → agents → final stitched output
+* Building a demo notebook
+* Submitting to Kaggle with readable output
+
+---
+
+# 🧿 **Capstone Project: iGita — An Indian Spiritual Multi-Agent Emotion System**
+
+![iGita Banner](https://res.cloudinary.com/dvlgixtg8/image/upload/v1763371819/Generated_Image_November_17_2025_-_2_40PM_epiywk.png)
+*(Replace with your actual image path)*
+
+---
+
+## 🧩 **Problem Statement**
+
 People often experience emotions like sadness, fear, anger, or powerlessness but lack a supportive framework that acknowledges their feelings, offers cultural grounding, and provides small, actionable steps.
-Modern emotional AI tools feel generic, clinical, or impersonal.
-At the same time, India’s spiritual traditions offer deep emotional frameworks through stories, Sanskrit wisdom, and reflective practices — but these teachings are rarely integrated with personalized digital systems.
 
-This project explores how a culturally aligned emotional companion can give people gentle insight, reframing, and mindful micro-actions when they feel overwhelmed.
+Modern emotional AI tools often feel generic or distant.
+Meanwhile, Indian spiritual traditions—Bhagavad Gita, Ramayana, Mahabharata, Upanishads—carry deep emotional wisdom, but are rarely integrated into personalized digital systems.
 
-Why Agents?
-Emotions are multi-layered. No single model can detect emotion, recall patterns, reframe compassionately, tell mythic stories, provide wisdom, and recommend daily practices all at once — each task needs its own specialized reasoning style.
+**iGita explores how AI agents can bridge these worlds** to offer gentle emotional insight, compassionate reframing, mythic guidance, and mindful micro-actions.
 
-### Agents allow:
+---
 
-Separation of roles (emotion sensing vs. reframing vs. mythology vs. reflection).
+## 🤖 **Why Agents?**
 
-Modular reasoning steps that pass context forward like a conversation.
+Emotions are multi-layered. No single model can:
 
-Human-like flow where each agent enriches the user’s emotional journey.
+* detect emotion,
+* recall past patterns,
+* generate empathy,
+* craft mythological metaphors,
+* provide Sanskrit reflections,
+* and recommend mindful practices
 
-A flexible pipeline that can grow and be improved agent-by-agent.
+all at once.
 
-The multi-agent approach mirrors how humans process emotions: sense → reflect → contextualize → find meaning → act.
+A **multi-agent system** allows:
 
-## What I Created (Architecture Overview)
+### ✓ Separation of roles
 
-I built a 5-agent spiritual emotional system where each agent performs a distinct function, passing its output to the next:
+Each agent specializes (emotion sensing, memory, storytelling, wisdom…).
 
-EmotionSenseAgent — Interprets emotional tone and cognitive bias.
+### ✓ Modular reasoning
 
-MemoryAgent — Recalls emotionally similar moments from the current session.
+Each agent passes its context to the next, forming a human-like flow.
 
-ReframerCompanionAgent — Offers a warm, empathetic reframe.
+### ✓ Natural emotional processing
 
-MythicMotivationAgent — Creates an Indian epic–inspired story reflecting the user’s struggle.
+Sense → Reflect → Contextualize → Find Meaning → Act
 
-WisdomAgent — Generates a Sanskrit-style verse with meaning and reflection.
+### ✓ Expandability
 
-DailyTrackerAgent — Suggests a small 5-minute activity to reinforce emotional grounding.
+More agents can be added anytime without breaking the system.
 
-All agents combine into a single, flowing emotional-support response — culturally grounded but technically modular.
+---
 
-## Demo (What It Does)
+# 🛕 **Architecture Overview**
 
-When a user writes something like:
+### **Agents in the System**
 
-“I feel stuck and powerless…”
+1. **EmotionSenseAgent**
+   Interprets emotional tone and cognitive bias.
 
-The system responds with:
+2. **MemoryAgent**
+   Recalls emotionally similar patterns from the session.
 
-Detected emotion & tone
+3. **ReframerCompanionAgent**
+   Produces a warm, empathetic emotional reframe.
 
-Gentle reframe
+4. **MythicMotivationAgent**
+   Creates an Indian epic–inspired motivational story.
 
-A mythic-style story the user can see themselves in
+5. **WisdomAgent**
+   Generates a Sanskrit-style verse with a modern reflection.
 
-A Sanskrit-inspired verse with reflection
+6. **DailyTrackerAgent**
+   Suggests a small 5-minute practice for grounding.
 
-A micro-activity to do right now
+### **Pipeline Flow**
 
-A stitched final message that feels human, warm, and spiritually grounded
+**User Input → Emotion → Memory → Reframe → Mythic Story → Sanskrit Wisdom → Micro-Action → Final Combined Response**
 
-Everything runs locally in Kaggle, producing a final readable text output and an exportable file.
+All stitched into a **single, flowing, human-readable emotional companion message**.
 
-## The Build (Tools & Implementation)
+---
 
-Designed a prompt-based multi-agent pipeline to simulate LLM behavior without external API calls.
+# 🎥 **Demo**
 
-Implemented each agent as a small rule-driven prompt transformer.
+### 🔗 Kaggle Submission Link
 
-Built a local agent orchestrator to run emotion → reframe → story → wisdom → action steps.
+**[https://www.kaggle.com/competitions/agents-intensive-capstone-project/writeups/igita-an-indian-spiritual-multi-agent-emotion](https://www.kaggle.com/competitions/agents-intensive-capstone-project/writeups/igita-an-indian-spiritual-multi-agent-emotion)**
 
-Ensured the entire system works offline using Python only (Kaggle-safe).
+### 🎞️ YouTube Video
 
-Saved outputs as readable files for demonstration and evaluation.
+Paste your YouTube demo link here:
 
-Architecture:
-User Input → Emotion Agent → Memory Agent → Reframer → Mythic Story → Wisdom → Micro-Activity → Final Combined Response
+```md
+https://youtu.be/fJ-VjX-IZMs?si=d7oiU4-2mEaT8AZ8
+```
 
-If I Had More Time:
-Add real LLM-powered reasoning using Google ADK once async/context issues are resolved.
+*(You can also embed if GitHub supports it, but link is safer.)*
 
-Expand mythic story generation with exact Mahabharata/Ramayana citations.
+### 📸 Example Output
 
-Build a memory database for long-term emotional patterns.
+Add a screenshot from your Kaggle output or UI.
 
-Add voice input + spiritual tone detection.
+```md
+![Demo Output](https://res.cloudinary.com/dvlgixtg8/image/upload/v1744404592/z2u1hfis6ryuwycqegcu.png)
+```
 
-Develop a small web UI where users can chat with the spiritual companion.
+---
 
-Personalize guidance based on the user’s tradition (Bhakti, Yoga, Vedanta, Buddhist influences, etc.).
+# 🛠️ **The Build**
+
+### **Tools & Technologies**
+
+* Python
+* Kaggle Notebook
+* Prompt-based pseudo agents
+* Local state + memory store
+* No external API calls (Kaggle-safe execution)
+
+### **Implementation Summary**
+
+* Created lightweight agent functions to simulate LLM-like behavior
+* Each agent transforms input → output based on short task prompts
+* Built a central pipeline to orchestrate the chain
+* Saved final text output to `/kaggle/working/final_spiritual_agent_output.txt`
+* Ensured the entire system is reproducible and offline-compatible
+
+### **Architecture Diagram (Text Version)**
+
+```
+User Input
+   ↓
+EmotionSenseAgent
+   ↓
+MemoryAgent
+   ↓
+ReframerCompanionAgent
+   ↓
+MythicMotivationAgent
+   ↓
+WisdomAgent
+   ↓
+DailyTrackerAgent
+   ↓
+Final Combined Response
+```
+
+---
+
+# 🚀 **If I Had More Time…**
+
+* Integrate real Gemini/ADK LLM reasoning
+* Use actual Mahabharata/Ramayana verses with citations
+* Build long-term emotional memory
+* Add voice input + tone detection
+* Build a simple web UI for iGita
+* Personalize guidance based on Bhakti, Advaita, or Buddhist traditions
+* Add meditation audio generation
+
+---
 
 
-Link-> https://www.kaggle.com/competitions/agents-intensive-capstone-project/writeups/igita-an-indian-spiritual-multi-agent-emotion
+
+
+
