@@ -50,7 +50,8 @@ During the 5-day AI Agents course, I learned how to build structured, modular, a
 # 🧿 **Capstone Project: iGita — An Indian Spiritual Multi-Agent Emotion System**
 
 ![iGita Banner](https://res.cloudinary.com/dvlgixtg8/image/upload/v1763371819/Generated_Image_November_17_2025_-_2_40PM_epiywk.png)
-*(Replace with your actual image path)*
+[![Watch the video](https://res.cloudinary.com/dvlgixtg8/image/upload/v1744404592/z2u1hfis6ryuwycqegcu.png)](https://youtu.be/fJ-VjX-IZMs?si=znSJOPwKr-Sz3dST)
+
 
 ---
 
@@ -153,6 +154,8 @@ Add a screenshot from your Kaggle output or UI.
 ```
 
 ---
+
+![iGita Banner](https://res.cloudinary.com/dvlgixtg8/image/upload/v1744404592/z2u1hfis6ryuwycqegcu.png)
 
 # 🛠️ **The Build**
 
